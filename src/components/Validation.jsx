@@ -2,15 +2,13 @@ import { useState } from "react";
 import "../css/valid.css";
 
 const Validation = () => {
-  const [input,setInput]=useState({
-    username:"",
-    phone:"",
-    password:"",
-    email:"",
-
-
-  })
-  
+  const [input, setInput] = useState({
+    username: "",
+    phone: "",
+    password: "",
+    email: "",
+  });
+console.log(input)
   return (
     <>
       <h1 style={{ textAlign: "center", color: "navy" }}>Form Validation</h1>

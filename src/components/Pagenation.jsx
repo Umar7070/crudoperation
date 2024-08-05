@@ -6,7 +6,7 @@ import Pagination from "react-bootstrap/Pagination";
 
 const Pagenation = () => {
   const [data, setData] = useState([]);
-  // console.log(data);
+  console.log(data);
   const [pageData, setPageData] = useState([]);
   const [page, setPage] = useState(1);
   const [pageCount, setPageCount] = useState(0);

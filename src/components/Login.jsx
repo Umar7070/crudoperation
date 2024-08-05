@@ -6,6 +6,7 @@ const Login = () => {
     name: "",
     password: "",
   });
+  console.log(formData)
   const [record, setRecord] = useState([]);
 
   const handleInput = (e) => {

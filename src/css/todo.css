@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(204, 233, 233);
+}
+
+.container {
+width: 100%;    
+}
+
+.container_box {
+    text-align: center;
+    margin-top: 10%;
+}
+.input_feild {
+    padding: 6px;
+    border-radius: 5px;
+    width: 500px;
+    outline: none;
+    border: 1px solid red;
+}
+

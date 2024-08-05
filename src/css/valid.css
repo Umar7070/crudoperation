@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    background-color: navajowhite;
+    height: 450px;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.username label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.username label {
+    font-size: 17px;
+    color: rgb(22, 22, 234);
+}
+
+.username input {
+    width: 250px;
+    border-style: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.username ::placeholder {
+    color: red;
+    margin-left: 20px;
+}
+
+.btn button {
+    padding: 0.1rem 1.5rem;
+    background-color: orange;
+    color: white;
+    border-style: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.btn button:hover {
+    background-color: navy;
+    transform: translate(0.1);
+}
